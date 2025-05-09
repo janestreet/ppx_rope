@@ -2,7 +2,7 @@
 ==========
 
 `[%rope STRING]` constructs `Rope.t`s similarly to how
-[`[%string STRING]`](%{root}/ppx/ppx_string/README.org) constructs strings.
+[`[%string STRING]`](%{root}/ppx/ppx_string/README.mdx) constructs strings.
 
 Ropes allow for efficient string concantention - recursive string constructions can be
 dramatically more efficient by using ropes. They also have some overhead, so smaller
