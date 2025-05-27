@@ -8,6 +8,7 @@ let config_for_rope ~preprocess_before_parsing : Ppx_string.Config.t =
   { fully_qualified_runtime_module
   ; conversion_function_name = "to_string"
   ; preprocess_before_parsing
+  ; assert_list_is_stack_allocated = false
   }
 ;;
 

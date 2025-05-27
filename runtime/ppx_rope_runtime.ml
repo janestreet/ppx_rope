@@ -10,4 +10,4 @@ let pad rope ~len =
   if n >= len then rope else Rope.( ^ ) (Rope.of_string (String.make (len - n) ' ')) rope
 ;;
 
-external identity : Rope.t -> Rope.t = "%identity"
+external finish_one : Rope.t -> Rope.t = "%identity"
